@@ -1,0 +1,36 @@
+{
+  "name": "genie-router-plugin-gladys",
+  "version": "1.0.0",
+  "description": "A genie-router plugin that enables the use of Gladys as a brain.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matueranet/genie-router-plugin-gladys.git"
+  },
+  "keywords": [
+    "genie-router",
+    "plugin",
+    "gladys",
+    "brain"
+  ],
+  "author": "matueranet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matueranet/genie-router-plugin-gladys/issues"
+  },
+  "homepage": "https://github.com/matueranet/genie-router-plugin-gladys#readme",
+  "devDependencies": {
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "debug": "^3.0.1",
+    "request": "^2.82.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "genieRouterPlugin": {
+    "name": "gladys"
+  }
+}
